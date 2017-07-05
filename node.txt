@@ -1,0 +1,10 @@
+header [8]
+  type [1]
+  unused [7]
+
+type: 0x10 (broadcasting)
+  uuid [36]
+  body len [4BE]
+  body [*]
+  knowns len [2BE]
+  knowns [4]*
